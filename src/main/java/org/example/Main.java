@@ -13,9 +13,9 @@ public class Main {
         ConvertidorDivisas conv = new ConvertidorDivisas();
         int opcion = 0;
         do{
-
+            
             String menu =
-                            "1) Dólar estadounidense =>> Peso Argentino \n" +
+                            "\n1) Dólar estadounidense =>> Peso Argentino \n" +
                             "2) Peso Argentino ==> Dólar \n" +
                             "3) Dólar ==> Real brasileño \n" +
                             "4) Real brasileño =>> Dólar \n" +
@@ -119,6 +119,6 @@ public class Main {
 
         }while (opcion!=9);
 
-
+        sc.close();
     }
 }
